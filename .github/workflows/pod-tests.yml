@@ -31,7 +31,7 @@ jobs:
           pnpm install --no-frozen-lockfile
         working-directory: pods
 
-      - name: Run create.ts script
+      - name: Run tests
         run: |
-          pnpm run create
+          pnpm test
         working-directory: pods
