@@ -33,5 +33,5 @@ jobs:
 
       - name: Run create.ts script
         run: |
-          pnpm create.ts
+          pnpm create
         working-directory: pods
